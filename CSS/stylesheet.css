@@ -5,12 +5,16 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding:0;
+    overflow-x: hidden;
 }
 
 
 /* general styles */
 .bg-dark{
     background: #1a1a1a!important;
+}
+.text-danger{
+    color:#FC3549!important;
 }
 /* mobile view */
 .social-icons{
@@ -260,11 +264,18 @@ hr{
    .desktop-only{
        display: block;
    }
-
+   /* hi section .desktop-only */
+   /* .drop-arrow{
+       border-radius: 50px;
+       border: 1px solid white;
+       width: 30px;
+       height: 40px;
+       padding: 5px;
+   } */
 
    .bg-dark{
     padding: 100px 30px;
-}
+    }
 
    /* about me section */
    .my-image{
@@ -272,13 +283,20 @@ hr{
        height:235px;
    }
 
+   /* graduate section */
+   .ada-logo{
+       width: 235px;
+       height:235px;
+   }
+
+
 }
 
 /* large devices desktop */
 @media (min-width: 1200px){
     /* general styles */
     .container-fluid{
-        padding: 0 400px;
+        padding: 0 200px;
     }
 
     /* header styles */
