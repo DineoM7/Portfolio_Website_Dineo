@@ -45,6 +45,10 @@ hr{
     font-size: 8em;
     font-weight: 100;
 }
+.pTest{
+    text-indent: 3.5em;
+    font-weight: bold;
+}
 /* once the mobile nav is clicked */
 .overlay {
     height: 100%;
@@ -59,11 +63,13 @@ hr{
 .overlay .icon{
     float: right;
     color: white;
+    font-size: 2.5em;
 }
 .overlay-content ul{
     list-style: none;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 500;
+    padding: 65px;
 }
 .overlay-content a{
     color: white;
@@ -211,7 +217,7 @@ hr{
 @media (min-width: 768px) {
     /* general styles */
     .container-fluid{
-        padding: 0 50px;
+        padding: 0 20px;
     }
 
 }
@@ -288,6 +294,7 @@ hr{
        width: 235px;
        height:235px;
    }
+   
 
 
 }
