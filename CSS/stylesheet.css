@@ -6,6 +6,12 @@ body{
     margin: 0;
     padding:0;
 }
+
+
+/* general styles */
+.bg-dark{
+    background: #1a1a1a!important;
+}
 /* mobile view */
 .social-icons{
     color: white;
@@ -28,7 +34,8 @@ body{
     display:none;
 }
 hr{
-    border: 0.001px solid white;
+    border: 1px solid white;
+    width: 90%;
 }
 .HI{
     font-size: 8em;
@@ -198,18 +205,31 @@ hr{
 
 /* // --------------------------------------------------------------Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    /* general styles */
+    .container-fluid{
+        padding: 0 50px;
+    }
 
 }
 
 /* // --------------------------------------------------------------Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
    /* general styles */
+   .container-fluid{
+        padding: 0 100px;
+    }
    .show-on-desktop{
        display: block;
    }
    .hide-on-desktop{
        display: none;
    }
+   hr{
+    width: 100%;
+    }
+
+
+
    .menu{
        display: none;
    }
@@ -240,13 +260,30 @@ hr{
    .desktop-only{
        display: block;
    }
+
+
+   .bg-dark{
+    padding: 100px 30px;
+}
+
+   /* about me section */
    .my-image{
        width:235px;
        height:235px;
-       margin-left: 100px;
-   }
-   .about-text{
-       margin-left: 500px;
    }
 
+}
+
+/* large devices desktop */
+@media (min-width: 1200px){
+    /* general styles */
+    .container-fluid{
+        padding: 0 400px;
+    }
+
+    /* header styles */
+    /* moving social icons to the right */
+    .social-icons{
+       transform: translateX(200px);
+    }
 }

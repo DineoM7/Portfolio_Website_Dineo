@@ -11,105 +11,116 @@
     <title>Dineo Motingoe</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row my-3">
-            <div class="social-icons col-sm-12 col-lg-3 order-lg-last">
-                <a href="#"><i class="fa fa-github round-border text-light"></i></a>
-                <a href="#"><i class="fa fa-linkedin round-border text-light"></i></a>
-                <a href="#"><i class="fa fa-envelope round-border text-light"></i></a>
-                <a href="#"><i class="fa fa-phone round-border text-light"></i></a>
-                <div class="menu"><a href="#"><i class="fa fa-bars round-border text-light"onclick="openNav()"></i></a></div>
-            </div>
-            <div class="col-sm-12 col-lg-6 offset-lg-3 text-center Dineo my-4 text-danger"><h1>Dineo</h1> 
-                <hr class="mb-0">
-             </div>
-        </div>
-          <!-- hidden navigation menu on mobile -->
-  <div id="myNav" class="overlay container-fluid">
+
+<div class="container-fluid">
     <div class="row my-3">
-      <div class="col-12">
-        <div class="icon"><a href="javascript:void(0)" class="closebtn text-light" onclick="closeNav()">&times;</a></div>
-      </div>
-      <div class="col-12 my-5">
-        <div class="overlay-content text-center">
-          <ul>
-            <li><a href="#" class="active">home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">journey</a></li>
-            <li><a href="#">resume</a></li>
-            <li><a href="#">get in touch</a></li>
-          </ul>
+
+        <!-- social media icons -->
+        <div class="social-icons col-sm-12 col-lg-3">
+            <a href="#"><i class="fa fa-github round-border text-light"></i></a>
+            <a href="#"><i class="fa fa-linkedin round-border text-light"></i></a>
+            <a href="#"><i class="fa fa-envelope round-border text-light"></i></a>
+            <a href="#"><i class="fa fa-phone round-border text-light"></i></a>
+            <div class="menu"><a href="#"><i class="fa fa-bars round-border text-light"onclick="openNav()"></i></a></div>
         </div>
-      </div>
+
+        <!-- name -->
+        <div class="col-sm-12 col-lg-6 offset-lg-3 order-lg-first text-center Dineo my-4 text-danger"><h1>Dineo</h1> 
+        </div>
+        <div class="col-12 p-0">
+            <hr>
+        </div>
     </div>
-  </div>
+        <!-- hidden navigation menu on mobile -->
+    <div id="myNav" class="overlay container-fluid">
+        <div class="row my-3">
+        <div class="col-12">
+            <div class="icon"><a href="javascript:void(0)" class="closebtn text-light" onclick="closeNav()">&times;</a></div>
+        </div>
+        <div class="col-12 my-5">
+            <div class="overlay-content text-center">
+            <ul>
+                <li><a href="#" class="active">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">journey</a></li>
+                <li><a href="#">resume</a></li>
+                <li><a href="#">get in touch</a></li>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </div>
 </div>
 
-    <!-- desktop verion for navbar -->
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <div class="text-center desktop-nav" id="DesktopNav">
-                    <a href="#" class=""><strong>HOME</strong></a>
-                    <a href="#">ABOUT ME</a>
-                    <a href="#">JOURNEY</a>
-                    <a href="#">RESUME</a>
-                    <a href="#">GET IN TOUCH</a>
-                </div>
+<!-- desktop verion for navbar -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 text-center">
+            <div class="text-center desktop-nav" id="DesktopNav">
+                <a href="#" class=""><strong>HOME</strong></a>
+                <a href="#">ABOUT ME</a>
+                <a href="#">JOURNEY</a>
+                <a href="#">RESUME</a>
+                <a href="#">GET IN TOUCH</a>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row bg-dark my-3">
-            <div class="col-12 col-lg-6 offset-lg-3 text-center">
-                <h1 class="HI text-center"><span style="color:gray">{</span>HI<span style="color:gray">}</span></h1>
-            </div>
-            <div class="col-12 text-center">
-                <p class="tagline text-danger"><span style="color:gray">&lt;p&gt;</span> I’m a junior Front-End developer - focused on integrating art/design and coding for the best user experience (UX / UI).<span style="color: gray;">&lt;/p&gt;</p></span>
-            </div>
-        </div>
-    </div>
-    <!-- about section for mobile version-->
-    <div class="container mobile-only">
-        <div class="row my-5 bg-dark">
-            <div class="col-12 col-lg-6 offset-lg-3 text-center">
-                <div class=" text-center col-sm-12 my-4"><h1 class="text-center text-danger margin-bottom-20">About Me</h1></div>
-                <div class="col-sm-12 col-lg-1 my-3">
-                    <div><img class="my-image my-3 mobile-only mx-5" src="Assets/Images/dineoM.jpg" alt="African lady with braids"></div>
-                </div>
-                <div class="col-sm-8">
-                    <p class="about-text text-left">
-                        I was introduced to the concept of coding in June 2019, and to date I've managed to learn three different development languages namely HTML, CSS and Javascript. This experience has taught me that I am resilient, a team player and definitely have an eye for design.
-                    </p>
-                    <p class="about-text text-left">
-                        I pride myself in the ability to build websites from scratch by applying my mind from the skill sets that I learnt at ADA and ensuring user friendly experience for all those interacting with my work.
-                        <div class="col-sm-12 text-center btn-round"><a class="btn btn-danger" href="#" role="button">more about me</a></div>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+</div>
 
-    <!-- about section for desktop version -->
-    <div class="container desktop-only">
-        <div class="row my-5 bg-dark">
-            <div class="col">
-                <div class="col-lg-8 my-4"><h1 class="text-danger text-right my-5">About Me</h1></div>
-                <div class="col">
-                    <div class="col-lg-12 ml-5"><img class="my-image" src="Assets/Images/dineoM.jpg" alt="African lady with braids"></div>
-                </div>
-                <div class="col-lg-12">
-                    <p class="about-text text-left">
-                        I was introduced to the concept of coding in June 2019, and to date I've managed to learn three different development languages namely HTML, CSS and Javascript. This experience has taught me that I am resilient, a team player and definitely have an eye for design.
-                    </p>
-                    <p class="about-text text-left">
-                        I pride myself in the ability to build websites from scratch by applying my mind from the skill sets that I learnt at ADA and ensuring user friendly experience for all those interacting with my work.
-                        <div class="col-sm-12 text-center btn-round"><a class="btn btn-danger" href="#" role="button">more about me</a></div>
-                    </p>
-                </div>
+<!-- HI section -->
+<div class="container-fluid">
+    <div class="row bg-dark my-3">
+        <div class="col-12 text-center">
+            <h1 class="HI text-center"><span style="color:gray">{</span>HI<span style="color:gray">}</span></h1>
+        </div>
+        <div class="col-12 col-lg-5 text-center mx-auto">
+            <p class="tagline text-danger"><span style="color:gray">&lt;p&gt;</span> I’m a junior Front-End developer - focused on integrating art/design and coding for the best user experience (UX / UI).<span style="color: gray;">&lt;/p&gt;</p></span>
+        </div>
+    </div>
+</div>
+
+<!-- about section for mobile version-->
+<div class="container mobile-only">
+    <div class="row my-5 bg-dark">
+        <div class="col-12 col-lg-6 offset-lg-3 text-center">
+            <div class=" text-center col-sm-12 my-4"><h1 class="text-center text-danger margin-bottom-20">About Me</h1></div>
+            <div class="col-sm-12 col-lg-1 my-3">
+                <div><img class="my-image my-3 mobile-only mx-5" src="Assets/Images/dineoM.jpg" alt="African lady with braids"></div>
+            </div>
+            <div class="col-sm-8">
+                <p class="about-text text-left">
+                    I was introduced to the concept of coding in June 2019, and to date I've managed to learn three different development languages namely HTML, CSS and Javascript. This experience has taught me that I am resilient, a team player and definitely have an eye for design.
+                </p>
+                <p class="about-text text-left">
+                    I pride myself in the ability to build websites from scratch by applying my mind from the skill sets that I learnt at ADA and ensuring user friendly experience for all those interacting with my work.
+                    <div class="col-sm-12 text-center btn-round"><a class="btn btn-danger" href="#" role="button">more about me</a></div>
+                </p>
             </div>
         </div>
     </div>
+</div>
+
+<!-- about section for desktop version -->
+<div class="container-fluid desktop-only">
+    <div class="row my-5 bg-dark about-section">
+        <!-- image -->
+        <div class="col-5 d-flex justify-content-center align-items-center">
+            <img class="my-image" src="Assets/Images/dineoM.jpg" alt="Dineo Motingoe">
+        </div>
+        <!-- heading and text-->
+        <div class="col-6">
+            <h1 class="text-danger text-center">About Me</h1>
+            <p class="about-text">
+                I was introduced to the concept of coding in June 2019, and to date I've managed to learn three different development languages namely HTML, CSS and Javascript. This experience has taught me that I am resilient, a team player and definitely have an eye for design.
+            </p>
+            <p class="about-text">
+                I pride myself in the ability to build websites from scratch by applying my mind from the skill sets that I learnt at ADA and ensuring user friendly experience for all those interacting with my work.
+                <div class="col-sm-12 text-center btn-round"><a class="btn btn-danger" href="#" role="button">more about me</a></div>
+            </p>
+        </div>
+    </div>
+</div>
+
     <!-- Graduate section for mobile -->
     <div class="container">
         <div class="row my-5 bg-dark">
