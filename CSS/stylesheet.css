@@ -1,0 +1,252 @@
+body{
+    background-color:black;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+/* mobile view */
+.social-icons{
+    color: white;
+}
+.round-border{
+    border: white;
+    border-radius:50%;
+    border-style: solid;
+    border-width: 1.5px;
+    padding:7px;
+}
+.menu{
+    float: right;
+}
+.Dineo{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.hide-on-mobile{
+    display:none;
+}
+hr{
+    border: 0.001px solid white;
+}
+.HI{
+    font-size: 8em;
+    font-weight: 100;
+}
+/* once the mobile nav is clicked */
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+  }
+.overlay .icon{
+    float: right;
+    color: white;
+}
+.overlay-content ul{
+    list-style: none;
+    font-size: 2em;
+    font-weight: 700;
+}
+.overlay-content a{
+    color: white;
+    line-height: 1em;
+}
+.desktop-nav{
+    display: none;
+}
+.mobile-only{
+    display:block;
+}
+.desktop-only{
+    display: none;
+}
+/* mobile view about section and onwards */
+.my-image{
+    box-shadow: -20px -20px gray;
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+}
+.ada-logo{
+    width: 200px;
+    height: 200px; 
+}
+.show-on-desktop{
+    display: none;
+}
+.adaLogo{
+    width: 100px;
+    height:100px;
+    box-shadow: 0px 100px gray;
+}
+.card{
+    border: none;
+    border-radius: 0;
+}
+.card-body{
+    color: white;
+}
+.logoIn{
+    color: white;
+    align-items: center;
+}
+#inputMessage{
+    width:225px;
+}
+.send-btn{
+    width:150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------media queries */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // --------------------------------------------------------------Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+
+/* // --------------------------------------------------------------Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* // --------------------------------------------------------------Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   /* general styles */
+   .show-on-desktop{
+       display: block;
+   }
+   .hide-on-desktop{
+       display: none;
+   }
+   .menu{
+       display: none;
+   }
+   .social-icons{
+       text-align: right;
+   }
+   .mobile-only{
+       display: none;
+   }
+   .show-on-desktop{
+       display: block;
+       width: 250px;
+       height: 250px;
+   }
+   .social-icons{
+       padding-top: 20px;
+       padding-right: 45px;
+   }
+   #DesktopNav{
+       display: block;
+   }
+   .desktop-nav a{
+    display: inline-block;
+    margin: 0 20px;
+    text-transform: uppercase;
+    color: white;
+   }
+   .desktop-only{
+       display: block;
+   }
+   .my-image{
+       width:235px;
+       height:235px;
+       margin-left: 100px;
+   }
+   .about-text{
+       margin-left: 500px;
+   }
+
+}
