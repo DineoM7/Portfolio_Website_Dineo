@@ -41,6 +41,19 @@ hr{
     border: 1px solid white;
     width: 90%;
 }
+h3{
+    /* font-weight: 200; */
+    font-size: 16px;
+    display: inline;
+    padding: 0 20px;
+    text-align: center;
+}
+.empty{
+    fill: none;
+}
+.star-icons{
+    color: #FC3549;
+}
 .HI{
     font-size: 8em;
     font-weight: 100;
