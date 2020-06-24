@@ -7,6 +7,9 @@ body{
     padding:0;
     overflow-x: hidden;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 
 /* general styles */
@@ -41,9 +44,15 @@ hr{
     border: 1px solid white;
     width: 90%;
 }
+h2{
+    /* font-weight: 100; */
+    font-size: 1.2em;
+    padding: 0 20px;
+    text-align: center; 
+}
 h3{
-    /* font-weight: 200; */
-    font-size: 16px;
+    font-weight: 100;
+    font-size: 14px;
     display: inline;
     padding: 0 20px;
     text-align: center;
@@ -293,7 +302,7 @@ h3{
    } */
 
    .bg-dark{
-    padding: 100px 30px;
+    padding: 20px 30px;
     }
 
    /* about me section */

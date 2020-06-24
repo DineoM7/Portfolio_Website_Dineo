@@ -6,7 +6,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
     <!-- font awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="CSS/layout.css">
     <link rel="stylesheet" href="CSS/stylesheet.css">
     <title>Dineo Motingoe</title>
 </head>
@@ -40,10 +39,10 @@
                 <div class="overlay-content text-center">
                 <ul>
                     <li><a href="index.html" class="active">home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">journey</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="journey.html">journey</a></li>
                     <li><a href="resume.html">resume</a></li>
-                    <li><a href="#">get in touch</a></li>
+                    <li><a href="#touch">get in touch</a></li>
                 </ul>
                 </div>
             </div>
@@ -56,27 +55,104 @@
         <div class="row">
             <div class="col-12 text-center">
                 <div class="text-center desktop-nav" id="DesktopNav">
-                    <a href="#" class=""><strong>HOME</strong></a>
-                    <a href="#">ABOUT ME</a>
-                    <a href="#">JOURNEY</a>
+                    <a href="index.html" class=""><strong>HOME</strong></a>
+                    <a href="about.html">ABOUT ME</a>
+                    <a href="journey.html">JOURNEY</a>
                     <a href="resume.html">RESUME</a>
-                    <a href="#">GET IN TOUCH</a>
+                    <a href="#touch">GET IN TOUCH</a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container footer-icons my-5">
-        <div class="row">
-            <div class="col-12 text-center">
-                <a href="#"><i class="fa fa-github round-border text-light"></i></a>
-                <a href="https://www.linkedin.com/in/dineo-motingoe-66285981/"><i class="fa fa-linkedin round-border text-light"></i></a>
-                <a href="#"><i class="fa fa-envelope round-border text-light"></i></a>
-                <a href="#"><i class="fa fa-phone round-border text-light"></i></a>
-            </div>
-            <div class="col-12 text-center my-2 mb-5">
-                <small>&copy; Copyright 2020, made by <span class="text-danger">Dineo Motingoe</span></small>
-            </div>
+    <!-- about me section for mobile  -->
+    <div class="container mobile-only">
+        <div class="row my-3">
+            <div class="col-12">
+                <h1 class="text-center text-danger mt-0">About Me</h1>
+                <div class="row bg-dark p-3">
+                <i class="fa fa-laptop-code round-border text-light mb-2"></i>
+                <br>
+                <h2 class="text-center text-danger justify-content-center mb-2 mx-3">Junior Front-End Developer</h2>
+                <br>
+                <i class="fas fa-medal round-border text-light mb-2"></i>
+                <br>
+                <h2 class="text-center text-danger justify-content-center mb-2 mx-3">Skills and Accomplishments</h2>
+                <br>
+                <p class="about-me-text text-left mb-2">
+                    I was introduced to the concept of coding in June 2019, and to date I've managed to learn three different development languages namely HTML, CSS and Javascript. This experience has taught me that I am resilient, a team player and definitely have an eye for design.
+                </p>
+                <p class="about-me-text text-left">
+                    I pride myself in the ability to build websites from scratch by applying my mind from the skill sets that I learnt at ADA and ensuring user friendly experience for all those interacting with my work.
+                </p>
+                </div>
+                <div class="row bg-dark p-3">
+                <i class="fa fa-user-tie round-border text-light"></i>
+                <h2 class="text-center text-danger justify-content-center mx-4">My Future Goals</h2>
+                <p class="about-me-text text-left">
+                        I was introduced to the concept of coding in June 2019, and to date I've managed to learn three different development languages namely HTML, CSS and Javascript. This experience has taught me that I am resilient, a team player and definitely have an eye for design.
+                </p>
+                <p class="about-me-text text-left">
+                        I pride myself in the ability to build websites from scratch by applying my mind from the skill sets that I learnt at ADA and ensuring user friendly experience for all those interacting with my work.
+                </p>
+                </div> 
+            </div> 
+        </div> 
+    </div>  
+    <!-- about page for desktop version -->
+    <div class="container desktop-only">
+        <div class="row my-3">
+            <div class="col-12">
+                <h1 class="text-center text-danger mt-4 mb-5">About Me</h1>
+                <div class="row bg-dark">
+                <div class="col-md-2"></div>
+                <div class="row bg-danger col-md-8 p-5 justify-content-center align-items-center">
+                <i class="fa fa-laptop-code round-border text-light mb-2"></i>
+                <h2 class="text-center text-dark justify-content-center">Junior Front-End Developer</h2>
+                </div> 
+                <!-- row ends -->
+                <div class="row my-5">
+                <div class="col-md-5">
+                <i class="fas fa-medal round-border text-light mb-2"></i>
+                <br>
+                <h2 class="text-center text-danger justify-content-center mb-2 mx-3">Skills and Accomplishments</h2>
+                <br>
+                <p class="about-me-text text-left mb-2">
+                    I was introduced to the concept of coding in June 2019, and to date I've managed to learn three different development languages namely HTML, CSS and Javascript. This experience has taught me that I am resilient, a team player and definitely have an eye for design.
+                </p>
+                <p class="about-me-text text-left">
+                    I pride myself in the ability to build websites from scratch by applying my mind from the skill sets that I learnt at ADA and ensuring user friendly experience for all those interacting with my work.
+                </p>
+                </div>
+                <div class="col-md-5">
+                    <i class="fa fa-user-tie round-border text-light"></i>
+                    <br>
+                    <h2 class="text-center text-danger justify-content-center mb-2 mx-3">My Future Goals</h2>
+                    <br>
+                    <p class="about-me-text text-left mb-2">
+                        I was introduced to the concept of coding in June 2019, and to date I've managed to learn three different development languages namely HTML, CSS and Javascript. This experience has taught me that I am resilient, a team player and definitely have an eye for design.
+                    </p>
+                    <p class="about-me-text text-left">
+                        I pride myself in the ability to build websites from scratch by applying my mind from the skill sets that I learnt at ADA and ensuring user friendly experience for all those interacting with my work.
+                    </p>
+                    </div>
+                </div>
+                <!-- row ends -->
+                </div>
+            </div> 
+        </div> 
+    </div>     
+<div class="container footer-icons my-5">
+    <div class="row">
+        <div class="col-12 text-center">
+            <a href="#"><i class="fa fa-github round-border text-light"></i></a>
+            <a href="https://www.linkedin.com/in/dineo-motingoe-66285981/"><i class="fa fa-linkedin round-border text-light"></i></a>
+            <a href="#"><i class="fa fa-envelope round-border text-light"></i></a>
+            <a href="#"><i class="fa fa-phone round-border text-light"></i></a>
+        </div>
+        <div class="col-12 text-center my-2 mb-0">
+            <small>&copy; Copyright 2020, made by <span class="text-danger">Dineo Motingoe</span></small>
         </div>
     </div>
+</div>
 </body>
 </html>
