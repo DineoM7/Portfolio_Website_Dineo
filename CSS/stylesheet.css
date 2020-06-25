@@ -35,7 +35,9 @@ html{
 }
 .Dineo{
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 500;
+    font-size: 2.5em;
+    letter-spacing: 5px;
 }
 .hide-on-mobile{
     display:none;
@@ -44,8 +46,10 @@ hr{
     border: 1px solid white;
     width: 90%;
 }
+h1{
+    font-weight: 300;
+}
 h2{
-    /* font-weight: 100; */
     font-size: 1.2em;
     padding: 0 20px;
     text-align: center; 
@@ -112,6 +116,9 @@ h3{
     width: 200px;
     height: 200px;
     border: 1px solid white;
+}
+.about-text{
+    text-emphasis-color: #FC3549;
 }
 .ada-logo{
     width: 200px;
@@ -302,7 +309,7 @@ h3{
    } */
 
    .bg-dark{
-    padding: 20px 30px;
+    padding: 50px 50px;
     }
 
    /* about me section */
@@ -310,13 +317,20 @@ h3{
        width:235px;
        height:235px;
    }
+   .about-me-text{
+       padding-left: 50px;
+       padding-right: 50px;
+   }
 
    /* graduate section */
    .ada-logo{
        width: 235px;
        height:235px;
    }
-   
+   .journey-text{
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 
 }
