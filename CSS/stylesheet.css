@@ -19,6 +19,11 @@ html{
 .text-danger{
     color:#FC3549!important;
 }
+.btn{
+    border-radius: 50px;
+    padding: 10px;
+    width: 200px;
+}
 /* mobile view */
 .social-icons{
     color: white;
@@ -146,9 +151,7 @@ h3{
 #inputMessage{
     width:225px;
 }
-.send-btn{
-    width:150px;
-}
+
 
 
 
