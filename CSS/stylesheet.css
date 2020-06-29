@@ -17,10 +17,10 @@ html{
     background: #1a1a1a!important;
 }
 .bg-danger{
-   background-color: #f88379!important; 
+   background-color: #EF6079FF!important; 
 }
 .text-danger{
-    color:#f88379!important;
+    color:#EF6079FF!important;
 }
 .text-dark{
     color:black!important;
@@ -29,7 +29,7 @@ html{
     border-radius: 50px;
     padding: 10px;
     width: 200px;
-    background-color:#f88379!important ;
+    background-color:#EF6079FF!important ;
 }
 .desktop-nav a:hover {
 color:white;
@@ -83,7 +83,7 @@ h3{
     fill: none;
 }
 .star-icons{
-    color: #f88379;
+    color: #EF6079FF;
 }
 .HI{
     font-size: 8em;
@@ -136,7 +136,7 @@ h3{
     border: 1px solid white;
 }
 .about-text{
-    text-emphasis-color: #f88379;
+    text-emphasis-color: #EF6079FF;
 }
 .ada-logo{
     width: 200px;
